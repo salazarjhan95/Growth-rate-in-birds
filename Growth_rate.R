@@ -164,3 +164,8 @@ qqnorm(gbww.wing_A.Ti.K_Nest_ID, ~ ranef(., level = "Nest_ID"))
 
 # residuals by nest
 plot(gbww.wing_A.Ti.K_Nest_ID, Nest_ID ~ resid(., type = "p"), abline = 0)
+
+
+###################################################################
+### You can repeat this for each of the morphological variables ###
+###################################################################
