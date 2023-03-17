@@ -143,9 +143,9 @@ summary(gbww.wing_A.Ti.K_Nest_ID)
 intervals(gbww.wing_A.Ti.K_Nest_ID, level = 0.95, which = "fixed")
 
 
-#############################
-## Validation of Top Model ##
-#############################
+##################################
+## Validation of the best model ##
+##################################
 
 # "." references the fitted object
 # Let's plot residuals vs. fitted values
